@@ -95,7 +95,7 @@ This script generates:
 The model uses a feed-forward neural network with:
 
 * Dense layers
-* mish and swish activations
+* Mish and swish activations
 * Binary crossentropy loss
 * Adamax optimizer
 
