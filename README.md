@@ -57,24 +57,6 @@ Missing categorical entries are handled through dictionary-based mapping stored 
 
 ---
 
-## Installation  
-
-Clone the repository:
-
-```bash
-git clone https://github.com/jovan-Alcoder/Rain-Prediction-Model.git
-cd Rain-Prediction-Model
-````
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-(If the repository does not yet include a `requirements.txt`, it can be generated.)
-
----
 
 ## Training the Model
 
