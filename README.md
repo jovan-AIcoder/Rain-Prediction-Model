@@ -62,7 +62,7 @@ Model Loss: 0.1070
 Model Accuracy: 0.9584
 ```
 
----
+
 
 ## Evaluation
 
@@ -88,7 +88,7 @@ This script generates:
 
 ![ROC Curve](roc_curve.png)
 
----
+
 
 ## Model Architecture
 
@@ -101,14 +101,14 @@ The model uses a feed-forward neural network with:
 
 Optimized for binary weather classification tasks.
 
----
+
 
 ## Numerization Dictionary
 
 Categorical features (e.g., Cloud Cover, Season, Location) are converted into numeric form using a mapping loaded from `numerization_dict.json`.
 This ensures consistent preprocessing and reproducible results.
 
----
+
 
 ## Results Summary
 
@@ -122,7 +122,7 @@ This ensures consistent preprocessing and reproducible results.
 
 The model demonstrates high performance and strong discriminatory power.
 
----
+
 
 ## Future Improvements
 
