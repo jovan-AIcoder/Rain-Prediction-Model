@@ -1,0 +1,19 @@
+{
+    "Cloud Cover": {
+        "clear": 0,
+        "partly cloudy": 0.33,
+        "cloudy": 0.67,
+        "overcast": 1
+    },  
+    "Season": {
+        "Winter":0,
+        "Spring":1,
+        "Autumn":2,
+        "Summer":3
+    },
+    "Location": {
+        "coastal":0,
+        "inland":1,
+        "mountain":2
+    }
+}
