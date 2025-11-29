@@ -1,5 +1,5 @@
 
-# Rain-Prediction-Model  
+# Rain Prediction Model  
 
 A deep learning tensorflow project that predicts **rainfall occurrence (rain / no rain)** using atmospheric and environmental parameters such as temperature, humidity, wind speed, pressure, UV index, cloud cover, and more.  
 This repository contains a complete pipeline from preprocessing, model training, evaluation, to metric visualization.
