@@ -105,7 +105,7 @@ This script generates:
 * F1-Score: **0.9120**
 * ROC Curve + AUC (example: **0.990**)
 
-You may include an ROC image here if desired.
+![ROC Curve](roc_curve.png)
 
 ---
 
