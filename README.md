@@ -4,7 +4,6 @@
 A machine learning project that predicts **rainfall occurrence (rain / no rain)** using atmospheric and environmental parameters such as temperature, humidity, wind speed, pressure, UV index, cloud cover, and more.  
 This repository contains a complete pipeline from preprocessing, model training, evaluation, to metric visualization.
 
----
 
 ## Features  
 - Full preprocessing workflow with a JSON-based numerization dictionary  
@@ -17,24 +16,6 @@ This repository contains a complete pipeline from preprocessing, model training,
 - Modular Python scripts (`TrainModel.py`, `EvaluateModel.py`)  
 - Clean and reproducible experiment setup  
 
----
-
-## Repository Structure  
-
-```
-
-Rain-Prediction-Model/
-│
-├── TrainModel.py              # Script for training the model
-├── EvaluateModel.py           # Script for evaluating the trained model
-├── numerization_dict.json     # Mapping of categorical → numerical values
-├── README.md                  # Project documentation
-├── LICENSE                    # License file
-└── .gitignore                 # Git ignore rules
-
-````
-
----
 
 ## Dataset  
 
@@ -55,7 +36,7 @@ It contains weather observations with the following relevant features:
 
 Missing categorical entries are handled through dictionary-based mapping stored in `numerization_dict.json`.
 
----
+
 
 
 ## Training the Model
@@ -153,7 +134,7 @@ Potential enhancements:
 * Interactive dashboard for predictions
 * Automatic hyperparameter tuning (Keras Tuner, Optuna)
 
----
+
 
 ## License
 
