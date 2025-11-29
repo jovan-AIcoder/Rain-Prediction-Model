@@ -95,9 +95,9 @@ This script generates:
 The model uses a feed-forward neural network with:
 
 * Dense layers
-* ReLU activations
+* mish and swish activations
 * Binary crossentropy loss
-* Adam optimizer
+* Adamax optimizer
 
 Optimized for binary weather classification tasks.
 
